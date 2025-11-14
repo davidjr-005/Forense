@@ -5,13 +5,6 @@
 
 - **Alcance:** Este análisis abarca las evidencias digitales referenciadas como EV01 a EV13, obtenidas en un entorno controlado de laboratorio que simula la máquina virtual afectada y su red, durante el periodo comprendido entre 13/11/2025 y 15/11/2025, abarcando tanto la captura de memoria volátil como almacenamiento persistente y configuraciones del sistema
 
-- **Hallazgos clave:**
-  - [• Punto 1]
-  - [• Punto 2]
-  - [• Punto 3]
-  - [• Punto 4]
-  - [• Punto 5]
-
 ---
 
 ## Contexto del Caso
