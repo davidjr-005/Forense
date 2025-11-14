@@ -1,0 +1,19 @@
+PS C:\Users\david\OneDrive\Escritorio\P2_FORENSE\03_memory> Get-FileHash .\memoria_ram.elf -Algorithm SHA256
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          09D75F04474D628EEBDA4DEBDCA288D740647B4011CFEE6B1528C70971361B55       C:\Users\david\OneDrive\Escri...
+
+
+PS C:\Users\david\OneDrive\Escritorio\P2_FORENSE\03_memory> Get-FileHash .\memoria_ram.elf -Algorithm MD5
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+MD5             56BD15911E7D178E98593D1739B6F438                                       C:\Users\david\OneDrive\Escri...
+
+
+PS C:\Users\david\OneDrive\Escritorio\P2_FORENSE\03_memory> Get-FileHash .\memoria_ram.elf -Algorithm SHA1
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA1            2FF17CADC288CC5EC0E611AC9EB9F8E529C3B330                               C:\Users\david\OneDrive\Escri...

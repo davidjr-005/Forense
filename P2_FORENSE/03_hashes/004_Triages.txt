@@ -1,0 +1,68 @@
+PS C:\Users\david\OneDrive\Escritorio\P2_FORENSE\02_triage> Get-FileHash .\01_systeminfo.txt -Algorithm SHA256
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          942AEF586802DBF5998FA7CF86FEB5DEFF45AF8D7FCF5C7F733D06AF2D6A41DC       C:\Users\david\OneDrive\Escri...
+
+
+PS C:\Users\david\OneDrive\Escritorio\P2_FORENSE\02_triage> Get-FileHash .\02_ipconfig_all.txt -Algorithm SHA256
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          90D1C8D4504AB3CF6772D89A1E94A8DBD5C300A95B8601D12015DCDAC6A97EE4       C:\Users\david\OneDrive\Escri...
+
+
+PS C:\Users\david\OneDrive\Escritorio\P2_FORENSE\02_triage> Get-FileHash .\03_routeprint.txt -Algorithm SHA256
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          0F17C5971B809F662E48B9DFC92EFC362646D30F76AADC46111239BF70EF3758       C:\Users\david\OneDrive\Escri...
+
+
+PS C:\Users\david\OneDrive\Escritorio\P2_FORENSE\02_triage> Get-FileHash .\04_arp.txt -Algorithm SHA256
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          B562625BC2A7235A253BE0CE40C475FB120D008535E1D5BA96CD3DECB4AC696B       C:\Users\david\OneDrive\Escri...
+
+
+PS C:\Users\david\OneDrive\Escritorio\P2_FORENSE\02_triage> Get-FileHash .\05_netstat_ano.txt -Algorithm SHA256
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          E8018800C036B02FBADEBB24F7D82EADDB9C353559DE8C9EB817EC5297DAF051       C:\Users\david\OneDrive\Escri...
+
+
+PS C:\Users\david\OneDrive\Escritorio\P2_FORENSE\02_triage> Get-FileHash .\06_tasklist_v.txt -Algorithm SHA256
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          0F6B8FD94CCC7EBC68D4D52593D9D71A13169F16DD3499519DCA91732EC9C0BA       C:\Users\david\OneDrive\Escri...
+
+
+PS C:\Users\david\OneDrive\Escritorio\P2_FORENSE\02_triage> Get-FileHash .\07_wmic_process_full.txt -Algorithm SHA256
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          33BEE6F1959A31583E30888CB735E34B05251A10D0D467C2AE4DFE07C43948ED       C:\Users\david\OneDrive\Escri...
+
+
+PS C:\Users\david\OneDrive\Escritorio\P2_FORENSE\02_triage> Get-FileHash .\08_schtasks.txt -Algorithm SHA256
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          5A7E0929FF1F64BC432D86F98D9DA3EE05C6A51C582A52F4C4AE2F3C208585D9       C:\Users\david\OneDrive\Escri...
+
+
+PS C:\Users\david\OneDrive\Escritorio\P2_FORENSE\02_triage> Get-FileHash .\09_logger_users.txt -Algorithm SHA256
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          60B5724FB333F8B5D574A63A5162ECEBBB767669ED6C5E6509A6FC0EFC19F594       C:\Users\david\OneDrive\Escri...
+
+
+PS C:\Users\david\OneDrive\Escritorio\P2_FORENSE\02_triage> Get-FileHash .\10_env_vars.txt -Algorithm SHA256
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          E84786A5C2B7A306EE2192E202D55DD13915DCDB22741A3AD752B28CB9C6A905       C:\Users\david\OneDrive\Escri...

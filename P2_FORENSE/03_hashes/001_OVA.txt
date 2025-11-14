@@ -1,0 +1,19 @@
+PS C:\Users\david\Downloads> Get-FileHash .\FORENSIC_10.ova -Algorithm SHA256
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          DAF0EF5255D98276A6912A53611DB5C0CBF2CCCBB49A180DD7FCC0F95E14930C       C:\Users\david\Downloads\FORE...
+
+
+PS C:\Users\david\Downloads> Get-FileHash .\FORENSIC_10.ova -Algorithm MD5
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+MD5             45EA13BF91AD8393F5684EDF588DB60A                                       C:\Users\david\Downloads\FORE...
+
+
+PS C:\Users\david\Downloads> Get-FileHash .\FORENSIC_10.ova -Algorithm SHA1
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA1            BB4A7C2842C21947863C0F05D7C015630FFBF6E2                               C:\Users\david\Downloads\FORE...
