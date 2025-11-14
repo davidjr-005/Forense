@@ -14,13 +14,17 @@
 
 - **Suposiciones y limitaciones del análisis:** Se asume que la copia de las evidencias es fiel y completa, sin alteraciones durante la adquisición. El análisis se limita a la información contenida en la VM y registros capturados en el periodo definido. Limitaciones incluyen la falta de acceso a sistemas externos involucrados potencialmente y posibles áreas de memoria volátil no capturadas debido a la imposibilidad de obtener un snapshot en ejecución completa.
 
----
+## Hallazgos Clave
 
-## Metodología
-- Procedimiento general de adquisición y preservación de evidencias.
-- Verificación de integridad: MD5, SHA-1, SHA-256; registro de cadena de custodia.
-- Herramientas empleadas en análisis: FTK Imager, utilidades de Windows, etc.
-- Control de cambios sobre evidencias (solo copias de trabajo).
+1. **Compromiso confirmado del sistema:** Detección de procesos maliciosos con nombres aleatorios (`QkryuzzwVu.exe`, `KzcmVNSNkYkueQf.exe`) ejecutándose desde directorios temporales, indicando presencia activa de malware.
+
+2. **Persistencia mediante tareas programadas:** Identificación de la tarea sospechosa `AutoPico Daily Restart` configurada para ejecución automática silenciosa, garantizando la permanencia del atacante en el sistema.
+
+3. **Superficie de ataque crítica expuesta:** Servicios de alto riesgo activos sin protección adecuada: HTTP (80), RDP (3389), SMB (445) y RPC (135), facilitando acceso remoto y movimiento lateral.
+
+4. **Sistema operativo obsoleto y vulnerable:** Windows 7 SP1 con soporte finalizado y múltiples vulnerabilidades críticas sin parchear (CVE-2025-59230, CVE-2025-62215), amplificando significativamente el riesgo de explotación.
+
+5. **Comunicaciones sospechosas hacia infraestructura externa:** Conexiones activas en estado SYN_SENT hacia IPs externas (10.28.5.1:8081, 10.28.5.1:53), sugiriendo comando y control (C2) o exfiltración de datos.
 
 ---
 
